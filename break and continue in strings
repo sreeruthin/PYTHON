@@ -1,0 +1,10 @@
+x='hello world'
+for i in x:
+    if(i=='o'):
+        break
+    print(i)
+print("\n")
+for i in x:
+    if(i=='o'):
+        continue
+    print(i)
