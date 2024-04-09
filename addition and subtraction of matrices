@@ -1,0 +1,18 @@
+a = [[1, 2], [3, 4]]
+b = [[2, 1], [1, 2]]
+z = [[0, 0], [0, 0]]  
+
+for i in range(len(a)):  
+    for j in range(len(b)):
+        z[i][j] = a[i][j] + b[i][j]
+print("addition: ")
+for i in z:
+    print(i)
+ 
+
+for i in range(len(a)):  
+    for j in range(len(b)):
+        z[i][j] = a[i][j] - b[i][j]
+print("subtraction: ")
+for i in z:
+    print(i)
